@@ -1,0 +1,19 @@
+header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 30px 0;
+  .header-row{
+    display: flex;
+    justify-content: space-between;
+    .logo{
+      // TODO: IMG STYLES
+    }
+    .header-menu{
+      display: flex;
+      &__item{
+        margin-right: 45px;
+      }
+    }
+  }
+}

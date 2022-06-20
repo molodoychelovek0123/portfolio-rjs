@@ -1,0 +1,49 @@
+section.hero{
+  padding-top: 264px;
+  border-bottom: 0;
+  padding-bottom: 132px;
+  height: 65vh;
+  .hero-row{
+    display: flex;
+    justify-content: space-between;
+    .hero-links{
+      width: 33%;
+      padding-bottom: 109px;
+      &__item{
+        width: 100%;
+        color: #8B8B8B;
+        padding: 12px 0 16px;
+        border-top: 1px solid #8B8B8B;
+        border-bottom: 1px solid #8B8B8B;
+        position: relative;
+        text-transform: lowercase;
+        &:after{
+          content: "";
+          position: absolute;
+          top:50%;
+          transform: translateY(-50%);
+          right: 0;
+          width: 40px;
+          height: 7px;
+          background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2241%22%20height%3D%228%22%20viewBox%3D%220%200%2041%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M40.3536%204.35355C40.5488%204.15829%2040.5488%203.84171%2040.3536%203.64644L37.1716%200.464463C36.9763%200.269201%2036.6597%200.269201%2036.4645%200.464463C36.2692%200.659725%2036.2692%200.976308%2036.4645%201.17157L39.2929%204L36.4645%206.82842C36.2692%207.02369%2036.2692%207.34027%2036.4645%207.53553C36.6597%207.73079%2036.9763%207.73079%2037.1716%207.53553L40.3536%204.35355ZM4.37114e-08%204.5L40%204.5L40%203.5L-4.37114e-08%203.5L4.37114e-08%204.5Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+          background-size: cover;
+          background-repeat: no-repeat;
+          opacity: 0;
+        }
+        &:hover{
+          color: #fff;
+          border-color: #fff;
+          &:after{
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+  &+section{
+    border-top: 1px solid #fff;
+    position: relative;
+    top: -132px;
+    margin-bottom: -132px;
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Hero": {
+    "title": "Kirill Tatarinov <br/> Web Developer",
+    "buttons": [
+      {
+        "text": "Contacts",
+        "url": "#contacts",
+        "type": [
+          "transparent",
+          "color-white"
+        ]
+      },
+      {
+        "text": "My Works",
+        "url": "#portfolio",
+        "type": [
+          "white",
+          "color-black"
+        ]
+      }
+    ],
+    "resume": "download a resume"
+  },
+  "SlidingText": "+35 Projects",
+  "About": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi there! :) Am I A Freelancer? A Web developer? A student?</p>\n                            <p>In short, my name is Kirill Tatarinov, I am a student of <a href=\"https://mtuci.ru\">mtuci</a>. I study and live in the beautiful capital of Russia, Moscow. A few years ago I became interested in web development and even tried to develop my studio <a href=\"https://studiobox.dev\">box.dev</a>. Now I work at <a href=\"https://newmedia.agency\">newmedia.agency</a> as a front-end developer and in their affiliated company <a href=\"https://wixlab.com\">wixlab</a> as a Velo developer.</p>\n                            <p>Last year I passed the certification Velo by Wix and now I am a certified Velo specialist</p>\n                            <p>About my professional skills <br/> I understand well:<br/>HTML5, CSS3, JavaScript, jQuery, Velo, PHP, SCSS, Adaptive and block layout, graphics program Figma.</p>\n                            <p>My email: <a href=\"mailto:boxdeveloper@studiobox.dev\">boxdeveloper@studiobox.dev</a><br/>WhatsApp: <a href=\"https://wa.me/+79226840212\">+79226840212</a><br/>Telegram: <a href=\"https://t.me/boxdeveloper\">@boxdeveloper</a></p>",
+  "Services": {
+    "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My main areas of work are <u>Wordpress</u> <u>Shopify</u> and <u>Wix</u>. But I can also easily learn something new and make your project in strict accordance with the terms of reference\n",
+    "elems": [
+      {
+        "text": "Wordpress",
+        "modalId": "wordpress",
+        "image": "/services-images/wordpress.jpg"
+      },
+      {
+        "text": "Shopify",
+        "modalId": "wordpress",
+        "image": "/services-images/shopify.jpg"
+      },
+      {
+        "text": "Wix",
+        "modalId": "wordpress",
+        "image": "/services-images/wix.jpg"
+      },
+      {
+        "text": "Other",
+        "modalId": "wordpress",
+        "image": "/services-images/other.jpg"
+      }
+    ]
+  },
+  "CallToAction":
+  {
+    "text": "Did you like<br/>my works?<br/>- Work with me.",
+    "buttons": [
+      {
+        "text": "Contacts",
+        "url": "#contacts",
+        "type": [
+          "transparent",
+          "color-white",
+          "black"
+        ]
+      },
+      {
+        "text": "My Works",
+        "url": "#portfolio",
+        "type": [
+          "white",
+          "color-black"
+        ]
+      }
+    ]
+  }
+
+}

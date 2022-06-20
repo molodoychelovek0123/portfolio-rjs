@@ -1,0 +1,47 @@
+section.about{
+  padding-bottom: 150px;
+  h3{
+    margin-bottom: 36px;
+  }
+  .row{
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .about-photo{
+    position: relative;
+    &__img-container{
+
+    }
+    &__award-container{
+      position: absolute;
+      width: 82%;
+      bottom: -30%;
+      right: -20%;
+    }
+  }
+  .about-text{
+    padding-right: 80px;
+    max-width: 53%;
+    a,p{
+      font-size: 25px;
+      line-height: 1.22em;
+      margin-bottom: 1em;
+      font-weight: 400;
+    }
+    p{
+      margin-bottom: 1em;
+      &:first-child{
+        margin-bottom: 1em;
+      }
+    }
+    a{
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      white-space: nowrap;
+      &:after{
+        content: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 15 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 14L14 1M14 1H1M14 1V14' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+        margin-left: 5px;
+      }
+    }
+  }
+}

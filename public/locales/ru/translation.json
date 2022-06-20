@@ -1,0 +1,68 @@
+{
+  "Hero": {
+    "title": "Кирилл Татаринов <br/> Web Разработчик",
+    "buttons": [
+      {
+        "text": "Контакты",
+        "url": "#contacts",
+        "type": ["transparent", "color-white"]
+      },
+      {
+        "text": "Мои работы",
+        "url": "#portfolio",
+        "type": ["white", "color-black"]
+      }
+    ],
+    "resume": "Скачать резюме"
+  },
+  "SlidingText": "+35 Проектов",
+  "About": " <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Всем привет в этом чатике! :) Я Фрилансер? Веб разработчик? Студент?</p>\n                            <p>Вообщем, меня зовут Татаринов Кирилл я студент <a href=\"https://mtuci.ru\">мтуси</a>. Я учусь, живу и работаю в прекрасной столице России, г. Москва. Несколько лет назад я заинтересовался веб-разработкой и даже пытался создать свою студию <a href=\"https://studiobox.dev\">box.dev</a> , все это не обвенчалось успехом:( И сейчас я работаю в <a href=\"https://newmedia.agency\">newmedia.agency</a> как фронтендер и в их дочерней компании <a href=\"https://wixlab.com\">wixlab</a> как Velo разработчик.</p>\n                            <p>Прошлым летом я прошел сертификацию Velo by Wix и теперь я сертифицированный специалист по языку Velo</p>\n                            <p>О моих профессиональных скиллах <br/> Я разбираюсь хорошо в:<br/>HTML5, CSS3, JavaScript, jQuery, Velo, PHP, SCSS, Адаптивная и блочная верстка, Графическая программа Figma.</p>\n                            <p>Мой email(напишеш?): <a href=\"mailto:boxdeveloper@studiobox.dev\">boxdeveloper@studiobox.dev</a><br/>Вотс: <a href=\"https://wa.me/+79226840212\">+79226840212</a><br/>Телега: <a href=\"https://t.me/boxdeveloper\">@boxdeveloper</a></p>\n",
+  "Services": {
+    "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;МОИ ОСНОВНЫЕ НАПРАВЛЕНИЯ РАБОТЫ - <u>Wordpress</u> <u>Shopify</u> И <u>Wix</u>. НО Я ТАКЖЕ МОГУ ЛЕГКО УЗНАТЬ ЧТО-ТО НОВОЕ И СДЕЛАТЬ ВАШ ПРОЕКТ В СТРОГОМ СООТВЕТСТВИИ С ТЕХНИЧЕСКИМ ЗАДАНИЕМ\n",
+    "elems": [
+      {
+        "text": "Wordpress",
+        "modalId": "wordpress",
+        "image": "/services-images/wordpress.jpg"
+      },
+      {
+        "text": "Shopify",
+        "modalId": "wordpress",
+        "image": "/services-images/shopify.jpg"
+      },
+      {
+        "text": "Wix",
+        "modalId": "wordpress",
+        "image": "/services-images/wix.jpg"
+      },
+      {
+        "text": "Other",
+        "modalId": "wordpress",
+        "image": "/services-images/other.jpg"
+      }
+    ]
+  },
+  "CallToAction":
+  {
+    "text": "Нравятся <br/>мои работы?<br/>- Напиши мне.",
+    "buttons": [
+      {
+        "text": "Contacts",
+        "url": "#contacts",
+        "type": [
+          "transparent",
+          "color-white",
+          "black"
+        ]
+      },
+      {
+        "text": "My Works",
+        "url": "#portfolio",
+        "type": [
+          "white",
+          "color-black"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+.call-to-action-block{
+  position: relative;
+  border: none;
+  margin-bottom: 170px;
+  .btn-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

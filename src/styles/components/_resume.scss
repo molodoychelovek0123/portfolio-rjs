@@ -1,0 +1,16 @@
+.resume-btn{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  span{
+    margin-right: 14px;
+  }
+  svg{
+    transition: all .3s ease-in-out;
+  }
+  &:hover{
+    svg{
+      transform: rotate(90deg);
+    }
+  }
+}

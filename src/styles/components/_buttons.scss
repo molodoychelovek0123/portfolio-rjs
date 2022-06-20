@@ -1,0 +1,26 @@
+.btn{
+  font-size: 19px;
+  line-height: 1.21em;
+  padding: 7px 2.15em;
+  margin-left: 9px;
+  background: $main-color;
+  color: $bg-color;
+  border-radius: 50px;
+  text-transform: uppercase;
+  &.-transparent{
+    background: transparent;
+    border: 1px solid #fff;
+  }
+  &.-white{
+    background: #fff;
+  }
+  &.-black{
+    background: $bg-color;
+  }
+  &.-color-white{
+    color: #fff;
+  }
+  &.-color-black{
+    color: $bg-color;
+  }
+}
