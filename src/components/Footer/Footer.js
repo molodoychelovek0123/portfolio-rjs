@@ -1,21 +1,37 @@
+// Футер
 import React from "react";
 import config from "../../AppConfig";
 import PropTypes from "prop-types";
+import {Consumer} from '../Modal/ModalProvider'
 
 export default class Footer extends React.Component {
     static propTypes = {
         elems: PropTypes.arrayOf(PropTypes.object).isRequired
     }
-    modalOpen = e =>{
+    modalOpen = e => {
         console.log(e);
     }
+
     render() {
         let rows = []
-        for (let i = 0; i<this.props.elems.length; i++) {
+        for (let i = 0; i < this.props.elems.length; i++) {
             rows.push(
-                <div className="menu__item" onClick={(e)=>this.modalOpen(e)}>
-                    {this.props.elems[i].text}
-                </div>
+                <Consumer key={i}>
+                    {({showModal}) => {
+                        const modalContent = () => (
+                            <div >
+                                <div dangerouslySetInnerHTML={{__html: this.props.elems[i].modalContent}}/>
+                            </div>
+                        );
+                        return(
+                            <div className="menu__item" onClick={() => showModal(modalContent)}>
+                                {this.props.elems[i].text}
+                            </div>
+                            )
+
+                    }}
+
+                </Consumer>
             )
         }
 
@@ -30,7 +46,8 @@ export default class Footer extends React.Component {
                                     opportunities for cooperation.
                                 </div>
                                 <div className="footer-social__links">
-                                    <a href="https://vk.com/4elovek007">vk</a> <a href="https://t.me/boxdeveloper">tg</a>
+                                    <a href="https://vk.com/4elovek007">vk</a> <a
+                                    href="https://t.me/boxdeveloper">tg</a>
                                     <a href="https://instagram.com/kirya.shkolnik"> inst</a>
                                 </div>
                             </div>

@@ -1,19 +1,35 @@
-header{
-  position: absolute;
+header {
+  position: fixed;
   top: 0;
   width: 100%;
   padding: 30px 0;
-  .header-row{
+  z-index: 5;
+
+  .header-row {
     display: flex;
     justify-content: space-between;
-    .logo{
+
+    .logo {
+      white-space: nowrap;
+      margin-right: 20px;
       // TODO: IMG STYLES
+
     }
-    .header-menu{
+
+    .header-menu {
       display: flex;
-      &__item{
-        margin-right: 45px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      &__item {
+        margin-right: 5px;
+
+        @media #{$medium-up}{
+          margin-right: 45px;
+        }
       }
+
+
     }
   }
 }

@@ -1,7 +1,11 @@
 .resume-btn{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  @media #{$large-up}{
+
+    justify-content: flex-start;
+  }
   span{
     margin-right: 14px;
   }

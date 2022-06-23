@@ -1,3 +1,5 @@
+// Кнопка резюме
+
 import React from "react";
 import config from "../../AppConfig";
 import { withTranslation } from 'react-i18next';

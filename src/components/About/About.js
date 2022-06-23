@@ -1,3 +1,4 @@
+// Блок обо мне
 import React from "react";
 import config from "../../AppConfig";
 import { withTranslation } from 'react-i18next';
@@ -5,7 +6,7 @@ import { withTranslation } from 'react-i18next';
 class About extends React.Component {
     render() {
         return (
-            <section className="about">
+            <section className="about" id="about">
                 <div className="container">
                     <h3>{config.name} / about me</h3>
                     <div className="row">

@@ -1,7 +1,8 @@
+// Хедер
 import React from "react";
 import config from "../../AppConfig";
 import HeaderItem from "./HeaderItem";
-import { i18nInstance } from 'react-i18next'
+// import { i18nInstance } from 'react-i18next'
 import {changeLanguage} from "i18next";
 
 export default class Header extends React.Component {
@@ -21,10 +22,10 @@ export default class Header extends React.Component {
                                 return <HeaderItem id={link.id} text={link.text} key={link.id}/>
                             })}
                             <li className="header-menu__item">
-                                <a href="/en" onClick={(e)=>{e.preventDefault(); changeLanguage("en")}}>EN </a>
+                                <a href="/" onClick={(e)=>{e.preventDefault(); changeLanguage("en")}}>EN </a>
                             </li>
                             <li className="header-menu__item">
-                                <a href="/ru" onClick={(e)=>{e.preventDefault(); changeLanguage("ru")}}>RU </a>
+                                <a href="/" onClick={(e)=>{e.preventDefault(); changeLanguage("ru")}}>RU </a>
                             </li>
                         </ul>
                     </div>

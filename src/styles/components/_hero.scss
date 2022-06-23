@@ -2,13 +2,23 @@ section.hero{
   padding-top: 264px;
   border-bottom: 0;
   padding-bottom: 132px;
-  height: 65vh;
+  @media #{$large-up}{
+    height: 65vh;
+  }
   .hero-row{
     display: flex;
     justify-content: space-between;
+    flex-direction: column-reverse;
+    @media #{$large-up}{
+      flex-direction: row;
+    }
     .hero-links{
       width: 33%;
       padding-bottom: 109px;
+      display: none;
+      @media #{$large-up}{
+        display: block;
+      }
       &__item{
         width: 100%;
         color: #8B8B8B;
@@ -38,6 +48,22 @@ section.hero{
           }
         }
       }
+    }
+    @media #{$small-only}{
+      .btn-container{
+        padding-bottom: 20px;
+        padding-top: 60px;
+
+        text-align: center;
+      }
+    }
+    @media #{$medium-only}{
+        .btn-container{
+          padding-bottom: 20px;
+          padding-top: 60px;
+
+          text-align: center;
+        }
     }
   }
   &+section{

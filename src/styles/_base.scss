@@ -68,7 +68,7 @@ a {
 
 abbr[title] {
   border-bottom: none;
-  text-decoration: underline;
+  //text-decoration: underline;
   text-decoration: underline dotted;
 }
 
@@ -147,7 +147,7 @@ button::-moz-focus-inner,
 }
 
 input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner {
-  border: 0px;
+  border: 0;
 }
 
 input[type="submit"]:focus, input[type="button"]:focus {
@@ -272,10 +272,18 @@ img.responsive-img {
 h1{
   font:{
     weight: 400;
-    size: 60px;
+    size: calc(18px + (55 - 18) * ((100vw - 200px) / (600 - 200)));;
     style: normal;
   }
+  text-align: center;
   line-height: 1.06em;
+  @media #{$medium-up}{
+    font-size: 57px;
+  }
+  @media #{$large-up}{
+    text-align: left;
+    font-size: 60px;
+  }
 }
 h2{
   font:{
@@ -310,4 +318,20 @@ a{
 section{
   padding-top: 15px;
   border-bottom: 1px solid #fff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #00000000
+}
+
+::-webkit-scrollbar-track {
+  background: #cccccc00;
+  border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: grey
 }

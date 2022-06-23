@@ -20,8 +20,18 @@ section.projects{
   .card{
     position: relative;
     width: 100%;
+
     a{
-      float: right;
+      @media #{$medium-up}{
+        transform: translateX(0) scale(.01);
+        transition: transform 0.7s cubic-bezier(0, 0.61, 0.21, 1.24);
+        float: right;
+      }
+    }
+    &.active{
+      a{
+        transform: none;
+      }
     }
     &__overlay{
       position: absolute;
@@ -42,7 +52,7 @@ section.projects{
     }
     &__image{
       img{
-
+        border-radius: 5px;
       }
     }
     &:hover{

@@ -1,12 +1,19 @@
 .btn{
   font-size: 19px;
   line-height: 1.21em;
-  padding: 7px 2.15em;
+  padding: 7px 1.15em;
   margin-left: 9px;
   background: $main-color;
   color: $bg-color;
   border-radius: 50px;
   text-transform: uppercase;
+  @media only screen and (max-width: 350px){
+    font-size: 15px;
+  }
+  @media #{$medium-up}{
+
+    padding: 7px 2.15em;
+  }
   &.-transparent{
     background: transparent;
     border: 1px solid #fff;

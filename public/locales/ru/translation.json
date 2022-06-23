@@ -4,7 +4,7 @@
     "buttons": [
       {
         "text": "Контакты",
-        "url": "#contacts",
+        "url": "modal(<h3> Contacts</h3> <h4> Name: </h4><p> Tatarinov Kirill </p><h4> Telegram </h4><p> <a href=\"https://tg.me/boxdeveloper\" style=\"color: #000;\"> @boxdeveloper </a></p>)",
         "type": ["transparent", "color-white"]
       },
       {
@@ -13,32 +13,38 @@
         "type": ["white", "color-black"]
       }
     ],
-    "resume": "Скачать резюме"
+    "resume": "скачать резюме"
   },
   "SlidingText": "+35 Проектов",
-  "About": " <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Всем привет в этом чатике! :) Я Фрилансер? Веб разработчик? Студент?</p>\n                            <p>Вообщем, меня зовут Татаринов Кирилл я студент <a href=\"https://mtuci.ru\">мтуси</a>. Я учусь, живу и работаю в прекрасной столице России, г. Москва. Несколько лет назад я заинтересовался веб-разработкой и даже пытался создать свою студию <a href=\"https://studiobox.dev\">box.dev</a> , все это не обвенчалось успехом:( И сейчас я работаю в <a href=\"https://newmedia.agency\">newmedia.agency</a> как фронтендер и в их дочерней компании <a href=\"https://wixlab.com\">wixlab</a> как Velo разработчик.</p>\n                            <p>Прошлым летом я прошел сертификацию Velo by Wix и теперь я сертифицированный специалист по языку Velo</p>\n                            <p>О моих профессиональных скиллах <br/> Я разбираюсь хорошо в:<br/>HTML5, CSS3, JavaScript, jQuery, Velo, PHP, SCSS, Адаптивная и блочная верстка, Графическая программа Figma.</p>\n                            <p>Мой email(напишеш?): <a href=\"mailto:boxdeveloper@studiobox.dev\">boxdeveloper@studiobox.dev</a><br/>Вотс: <a href=\"https://wa.me/+79226840212\">+79226840212</a><br/>Телега: <a href=\"https://t.me/boxdeveloper\">@boxdeveloper</a></p>\n",
+  "About": " <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Всем привет в этом чатике! :) Я Фрилансер? Веб разработчик? Студент?</p>\n                            <p>Вообщем, меня зовут Татаринов Кирилл я студент <a href=\"https://mtuci.ru\">мтуси</a>. Я учусь, живу и работаю в прекрасной столице России, г. Москва. Несколько лет назад я заинтересовался веб-разработкой и даже пытался создать свою студию <a href=\"https://studiobox.dev\">box.dev</a> , все это не обвенчалось успехом:( И сейчас я работаю в <a href=\"https://newmedia.agency\">newmedia.agency</a> как фронтендер и в их дочерней компании <a href=\"https://wixlab.com\">wixlab</a> как Velo разработчик.</p>\n                            <p>Прошлым летом я прошел сертификацию Velo by Wix и теперь я сертифицированный специалист по языку Velo</p>\n                            <p>О моих профессиональных скиллах <br/> Я разбираюсь хорошо в:<br/>HTML5, CSS3, JavaScript, jQuery, Velo, PHP, SCSS, Адаптивная и блочная верстка, Графическая программа Figma.</p>\n                            <p>Мой email(напишеш?): <a href=\"mailto:boxdeveloper@studiobox.dev\">boxdeveloper@studiobox.dev</a><br/>Вотс: <a href=\"https://wa.me/+79226840212\">+79226840212</a><br/>Телега: <a href=\"https://t.me/boxdeveloper\">@boxdeveloper</a><br/>Нельзяграм: <a href='https://instagram.com/kirya.shkolnik'> [Ссылка заблокирована решением суда] </a></p>\n",
   "Services": {
     "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;МОИ ОСНОВНЫЕ НАПРАВЛЕНИЯ РАБОТЫ - <u>Wordpress</u> <u>Shopify</u> И <u>Wix</u>. НО Я ТАКЖЕ МОГУ ЛЕГКО УЗНАТЬ ЧТО-ТО НОВОЕ И СДЕЛАТЬ ВАШ ПРОЕКТ В СТРОГОМ СООТВЕТСТВИИ С ТЕХНИЧЕСКИМ ЗАДАНИЕМ\n",
     "elems": [
       {
         "text": "Wordpress",
-        "modalId": "wordpress",
-        "image": "/services-images/wordpress.jpg"
+        "modalId": "modal",
+        "image": "/services-images/wordpress.jpg",
+        "modalContent": "<h3>Wordpress</h3><p>Now Wordpress is considered one of the most widespread and accessible site management systems, thanks to this, the client can get an individual website with convenient editing in a short time</p>\n      <div class=\"modal-service-images\">\n                  <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/1.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/2.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/3.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/4.jpg\">\n                </div>\n      <p>I have extensive experience in developing personalized WordPress themes and guiding clients through all stages of development from a prototype to a completed WP site. If you need a good WP developer, don't forget to write to me!</p>"
       },
       {
         "text": "Shopify",
-        "modalId": "wordpress",
-        "image": "/services-images/shopify.jpg"
+        "modalId": "modal",
+        "image": "/services-images/shopify.jpg",
+        "modalContent": "<h3>Shopify</h3><p>Shopify – это программное обеспечение, которое позволяет вам спроектировать и запустить собственный интернет-магазин. Shopify чем-то похож на Wordpress, но более заточенный под разработку интернет-магазина. Shopify отличный выбор для быстрой разработки интернет-магазина для вашего бизнеса</p>\n      <div class=\"modal-service-images\">\n                  <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/sp/1.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/sp/2.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/sp/3.jpg\">\n                    \n                </div>\n      <p>Так как Shopify какими-то идеями похож на WordPress, как только мне поручили разработать интернет-магазин на платформе Shopify, я с легкостью разобрался в тонкостях и смог в короткие сроки разработать проект.<br/> Сейчас у меня нет большого опыта в разработке тем для Shopify, но даже с данным опытом я могу разработать индивидуальный интернет-магазин для вашего бизнеса, не забудьте мне написать!</p>"
+
       },
       {
         "text": "Wix",
-        "modalId": "wordpress",
-        "image": "/services-images/wix.jpg"
+        "modalId": "modal",
+        "image": "/services-images/wix.jpg",
+        "modalContent": "<h3>Wix Velo</h3><p>Wix - это онлайн конструктор сайтов, который дает возможность всем создать собственный сайт. У Wix есть технология Velo. Это язык программирования взаимодействующий с элементами конструктора, позволяет делать сайт более динамичным и интересным</p>\n      <div class=\"modal-service-images\">\n                  <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/1.jpg\">\n                    <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/2.jpg\">\n                    <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/3.jpg\">\n          <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/4.jpg\">\n                    \n                </div>\n      <p>После прохождения сертификации, я являюсь сертифицированным специалистом Velo. Я смогу оживить ваш имеющийся Wix проект, не забудьте мне написать!</p>"
+
       },
       {
         "text": "Other",
-        "modalId": "wordpress",
-        "image": "/services-images/other.jpg"
+        "modalId": "modal",
+        "image": "/services-images/other.jpg",
+        "modalContent": "<h3>Web Developing</h3><p>У меня есть опыт разработки различных веб-приложений. Я очень часто использую технологии, с которыми раньше не сталкивался. Свяжитесь со мной, и я думаю, мы найдем решение вашей проблемы, даже если я никогда этого не делал</p>"
       }
     ]
   },
@@ -47,8 +53,8 @@
     "text": "Нравятся <br/>мои работы?<br/>- Напиши мне.",
     "buttons": [
       {
-        "text": "Contacts",
-        "url": "#contacts",
+        "text": "Контакты",
+        "url": "modal(<h3> Contacts</h3> <h4> Name: </h4><p> Tatarinov Kirill </p><h4> Telegram </h4><p> <a href=\"https://tg.me/boxdeveloper\" style=\"color: #000;\"> @boxdeveloper </a></p>)",
         "type": [
           "transparent",
           "color-white",
@@ -56,7 +62,7 @@
         ]
       },
       {
-        "text": "My Works",
+        "text": "Мои работы",
         "url": "#portfolio",
         "type": [
           "white",

@@ -1,3 +1,5 @@
+// Блок проекты
+
 import React from 'react'
 import config from "../../AppConfig";
 import ProjectItem from "./ProjectItem";
@@ -12,14 +14,16 @@ export default class Projects extends React.Component {
 
     }
     componentDidMount() {
+        if(!this.state.loaded)
         fetch('projects.json').then(response => response.json()).then(data => {this.projects = data;this.setState({loaded: true})});
     }
     componentDidUpdate() {
+        if(!this.state.loaded)
         fetch('projects.json').then(response => response.json()).then(data => {this.projects = data;this.setState({loaded: true})});
     }
     render() {
         return (
-            <section className="projects">
+            <section className="projects" id="projects">
                 <div className="container">
                     <h3>{config.name} / projects</h3>
                     {this.state.loaded ?

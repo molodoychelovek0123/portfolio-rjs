@@ -1,3 +1,4 @@
+// блок херо
 import React from "react";
 import HeroLinks from "./HeroLinks";
 import Resume from "../Other/Resume";
@@ -16,7 +17,7 @@ export default class Hero extends React.Component {
 
     render() {
         return (
-            <section className="hero" style={config.heroBg && {
+            <section className="hero" id="hero" style={config.heroBg && {
                 backgroundImage: "url(" + config.heroBg + ")",
                 backgroundSize: 'cover',
                 backgroundPosition: 'center bottom'

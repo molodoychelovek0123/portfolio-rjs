@@ -4,8 +4,14 @@ section.about{
     margin-bottom: 36px;
   }
   .row{
-    align-items: flex-start;
-    justify-content: space-between;
+
+    flex-direction: column;
+    align-items: center;
+    @media #{$large-up}{
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
   }
   .about-photo{
     position: relative;
@@ -20,8 +26,13 @@ section.about{
     }
   }
   .about-text{
-    padding-right: 80px;
-    max-width: 53%;
+    padding-top: 50px;
+    max-width: 100%;
+    @media #{$large-up}{
+      padding-top: 0;
+      padding-right: 80px;
+      max-width: 53%;
+    }
     a,p{
       font-size: 25px;
       line-height: 1.22em;

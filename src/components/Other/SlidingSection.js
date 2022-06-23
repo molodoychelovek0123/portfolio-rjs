@@ -1,3 +1,5 @@
+// Секция с утекающим влево текстом
+
 import React from 'react'
 import config from "../../AppConfig";
 import PropTypes from 'prop-types';

@@ -1,21 +1,23 @@
-import React, {Suspense} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {    BrowserRouter,    Routes,    Route } from "react-router-dom";
 import './styles/index.scss';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import AppEdit from "./AppEdit";
+// import App404 from "./App404";
+
+
 
 import './i18n';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <React.StrictMode>
-        <Suspense fallback={<div>Loading...</div>}>
-            <App/>
-        </Suspense>
-    </React.StrictMode>
+root.render( // Тут когда-то была идея использовать router dom, но не получилось не фортануло не повезло, когда нибудь этот участок кода будет переделан, но не сегодня.
+    <BrowserRouter>
+        <Routes>
+            <Route path='/' element={ <App /> } />
+            {/*<Route path='/edit' element={ <AppEdit /> } />*/}
+        </Routes>
+    </BrowserRouter>
+    // <App/>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

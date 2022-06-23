@@ -1,9 +1,12 @@
+// Класс для модалок
+
 import React from "react";
 const ModalContext = React.createContext();
 export const Consumer = ModalContext.Consumer;
 
-export default class Provider extends React.Component {
+export default class ModalProvider extends React.Component {
     showModal = (content, props = {}) => {
+        document.querySelector('body').style.overflowY = 'hidden';
         this.setState({
             content,
             props
@@ -11,10 +14,14 @@ export default class Provider extends React.Component {
     };
 
     hideModal = () =>
+    {
+        document.querySelector('body').style.overflowY = 'auto';
         this.setState({
             content: null,
             props: {}
         });
+    }
+
 
     state = {
         content: null,
@@ -52,23 +59,3 @@ const Modal = props => {
         </React.Fragment>
     );
 };
-// export const CloseButton = () => (
-//     <Consumer>
-//         {({hideModal}) => <button onClick={hideModal}>Close It</button>}
-//     </Consumer>
-// );
-
-// const TextModalContent = () => (
-//     <div>
-//         <h1>Text modal</h1>
-//         <p>Some next here !</p>
-//         <CloseButton />
-//     </div>
-// );
-//
-// const ImageModalContent = () => (
-//     <div>
-//         <img src="http://storage.js-craft.io/examples/react-context-usecases/cool-cat.jpg" />
-//         <CloseButton />
-//     </div>
-// );

@@ -1,8 +1,11 @@
 .sliding{
   h2{
     white-space: nowrap;
-    font-size: 600px;
-    line-height: 650px;
+    font-size: calc(30px + (600 - 30) * ((100vw - 200px) / (992 - 200)));
+    line-height: 1.08em;
     margin-left: -50%;
+    @media #{$large-up}{
+      font-size: 600px;
+    }
   }
 }

@@ -1,20 +1,30 @@
+// Карточка проекта
+
 import React from "react";
 import PropTypes from "prop-types";
+import handleViewport from 'react-in-viewport';
 
-export default class ProjectItem extends React.Component {
-  state = {
-    loaded: false,
-  };
+class ProjectItemBlock extends React.Component {
+
   static propTypes = {
     name: PropTypes.string,
     url: PropTypes.string,
     image: PropTypes.string.isRequired,
   };
+  baseClasses = ['project-item', 'card']
+  getClasses() {
+    const {inViewport} = this.props;
+    if (inViewport) {
+      return this.baseClasses.concat(['active']);
+    } else {
+      return this.baseClasses;
+    }
+  }
 
   render() {
-    return (
+      return (
       <React.Fragment>
-          <li className="project-item card">
+          <li className={this.getClasses().join(" ")}>
             <a href={this.props.url}>
               <div className="card__overlay">
                 <div className="card__text">
@@ -31,3 +41,7 @@ export default class ProjectItem extends React.Component {
     );
   }
 }
+
+const ProjectItem = handleViewport(ProjectItemBlock)
+
+export default ProjectItem;
