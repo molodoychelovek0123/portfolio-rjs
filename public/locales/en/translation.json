@@ -58,7 +58,7 @@
     "buttons": [
       {
         "text": "Contacts",
-        "url": "modal(<h3> Contacts</h3> <h4> Name: </h4><p> Tatarinov Kirill </p><h4> Telegram </h4><p> <a href=\"https://tg.me/boxdeveloper\" style=\"color: #000;\"> @boxdeveloper </a></p>)",
+        "url": "modal(<h3> Contacts</h3> <h4> Name: </h4><p> Tatarinov Kirill </p><h4> Telegram: </h4><p> <a href=\"https://tg.me/boxdeveloper\" style=\"color: #000;\"> @boxdeveloper </a></p><h4> Mail: </h4><p> <a href=\"mailto:boxdeveloper@studiobox.dev\" style=\"color: #000;\"> boxdeveloper@studiobox.dev </a></p><h4> WhatsApp: </h4><p> <a href=\"https://wa.me/+79226840212\">+79226840212</a></p>)",
         "type": [
           "transparent",
           "color-white",
