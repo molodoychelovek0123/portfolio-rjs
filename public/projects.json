@@ -1,42 +1,42 @@
 [
   {
     "name": "Madre Restaraunt Online-shop",
-    "image": "/project-images/madre.jpg",
+    "image": "./project-images/madre.jpg",
     "url": "https://gomadreshop.com"
   },
   {
     "name": "Pole - Architectural Agency",
-    "image": "/project-images/arch-pole.png",
+    "image": "./project-images/arch-pole.png",
     "url": "https://arch-pole.ru"
   },
   {
     "name": "Vinely - Online Video Magazine",
-    "image": "/project-images/vinely.jpg",
+    "image": "./project-images/vinely.jpg",
     "url": "https://www.vinely.com"
   },
   {
     "name": "Ayurfood - Ayurvedic Recipes",
-    "image": "/project-images/ayurfood.jpg",
+    "image": "./project-images/ayurfood.jpg",
     "url": "https://www.ayurfood.ch/"
   },
   {
     "name": "Sommtable - Online shop of experience",
-    "image": "/project-images/sommtable.jpg",
+    "image": "./project-images/sommtable.jpg",
     "url": "https://sommtable.com/"
   },
   {
     "name": "18Line - Solution of interior ideas",
-    "image": "/project-images/18line.jpg",
+    "image": "./project-images/18line.jpg",
     "url": "https://18linia.ru/"
   },
   {
     "name": "Beckmann Elektronik",
-    "image": "/project-images/beckmann.jpg",
+    "image": "./project-images/beckmann.jpg",
     "url": "https://beckmann-elektronik.de/"
   },
   {
     "name": "NFTOASIS - be a part of the future",
-    "image": "/project-images/nftoasis.png",
+    "image": "./project-images/nftoasis.png",
     "url": "https://www.nftoasis.co"
   }
 ]
