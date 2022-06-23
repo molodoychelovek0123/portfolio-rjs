@@ -23,27 +23,27 @@
       {
         "text": "Wordpress",
         "modalId": "modal",
-        "image": "/services-images/wordpress.jpg",
+        "image": "./services-images/wordpress.jpg",
         "modalContent": "<h3>Wordpress</h3><p>Now Wordpress is considered one of the most widespread and accessible site management systems, thanks to this, the client can get an individual website with convenient editing in a short time</p>\n      <div class=\"modal-service-images\">\n                  <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/1.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/2.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/3.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/4.jpg\">\n                </div>\n      <p>I have extensive experience in developing personalized WordPress themes and guiding clients through all stages of development from a prototype to a completed WP site. If you need a good WP developer, don't forget to write to me!</p>"
       },
       {
         "text": "Shopify",
         "modalId": "modal",
-        "image": "/services-images/shopify.jpg",
+        "image": "./services-images/shopify.jpg",
         "modalContent": "<h3>Shopify</h3><p>Shopify – это программное обеспечение, которое позволяет вам спроектировать и запустить собственный интернет-магазин. Shopify чем-то похож на Wordpress, но более заточенный под разработку интернет-магазина. Shopify отличный выбор для быстрой разработки интернет-магазина для вашего бизнеса</p>\n      <div class=\"modal-service-images\">\n                  <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/sp/1.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/sp/2.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/sp/3.jpg\">\n                    \n                </div>\n      <p>Так как Shopify какими-то идеями похож на WordPress, как только мне поручили разработать интернет-магазин на платформе Shopify, я с легкостью разобрался в тонкостях и смог в короткие сроки разработать проект.<br/> Сейчас у меня нет большого опыта в разработке тем для Shopify, но даже с данным опытом я могу разработать индивидуальный интернет-магазин для вашего бизнеса, не забудьте мне написать!</p>"
 
       },
       {
         "text": "Wix",
         "modalId": "modal",
-        "image": "/services-images/wix.jpg",
+        "image": "./services-images/wix.jpg",
         "modalContent": "<h3>Wix Velo</h3><p>Wix - это онлайн конструктор сайтов, который дает возможность всем создать собственный сайт. У Wix есть технология Velo. Это язык программирования взаимодействующий с элементами конструктора, позволяет делать сайт более динамичным и интересным</p>\n      <div class=\"modal-service-images\">\n                  <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/1.jpg\">\n                    <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/2.jpg\">\n                    <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/3.jpg\">\n          <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/4.jpg\">\n                    \n                </div>\n      <p>После прохождения сертификации, я являюсь сертифицированным специалистом Velo. Я смогу оживить ваш имеющийся Wix проект, не забудьте мне написать!</p>"
 
       },
       {
         "text": "Other",
         "modalId": "modal",
-        "image": "/services-images/other.jpg",
+        "image": "./services-images/other.jpg",
         "modalContent": "<h3>Web Developing</h3><p>У меня есть опыт разработки различных веб-приложений. Я очень часто использую технологии, с которыми раньше не сталкивался. Свяжитесь со мной, и я думаю, мы найдем решение вашей проблемы, даже если я никогда этого не делал</p>"
       }
     ]

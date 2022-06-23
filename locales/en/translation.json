@@ -29,25 +29,25 @@
       {
         "text": "Wordpress",
         "modalId": "modal",
-        "image": "/services-images/wordpress.jpg",
+        "image": "./servicess-images/wordpress.jpg",
         "modalContent": "<h3>Wordpress</h3><p>Now Wordpress is considered one of the most widespread and accessible site management systems, thanks to this, the client can get an individual website with convenient editing in a short time</p>\n      <div class=\"modal-service-images\">\n                  <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/1.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/2.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/3.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/wp/4.jpg\">\n                </div>\n      <p>I have extensive experience in developing personalized WordPress themes and guiding clients through all stages of development from a prototype to a completed WP site. If you need a good WP developer, don't forget to write to me!</p>"
       },
       {
         "text": "Shopify",
         "modalId": "modal",
-        "image": "/services-images/shopify.jpg",
+        "image": "./servicess-images/shopify.jpg",
         "modalContent": "<h3>Shopify</h3><p>Shopify is a software that allows you to design and run your own online store. Shopify is somewhat similar to Wordpress, but more tailored to the development of an online store. Shopify is an excellent choice for the rapid development of an online store for your business</p>\n      <div class=\"modal-service-images\">\n                  <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/sp/1.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/sp/2.jpg\">\n                    <img alt=\"wp\" src=\"https://studiobox.dev/portfolio-inc/pictures/sp/3.jpg\">\n                    \n                </div>\n      <p>Since Shopify is similar to WordPress in some ideas, I easily figured out the subtleties. Now I don't have much experience in developing themes for Shopify, but even with this experience I can develop an individual online store for your business, don't forget to write to me!</p>"
       },
       {
         "text": "Wix",
         "modalId": "modal",
-        "image": "/services-images/wix.jpg",
+        "image": "./servicess-images/wix.jpg",
         "modalContent": "<h3>Wix Velo</h3><p>Wix is an online website builder that gives everyone the opportunity to create their own website. Wix has Velox technology. This is a programming language that interacts with the elements of the designer, allows you to make the site more dynamic and interesting</p>\n      <div class=\"modal-service-images\">\n                  <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/1.jpg\">\n                    <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/2.jpg\">\n                    <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/3.jpg\">\n          <img alt=\"wx\" src=\"https://studiobox.dev/portfolio-inc/pictures/wx/4.jpg\">\n                    \n                </div>\n      <p>After passing the certification, I am a certified Velo specialist. I will be able to make your existing Wix project more interesting, don't forget to write to me!</p>"
       },
       {
         "text": "Other",
         "modalId": "modal",
-        "image": "/services-images/other.jpg",
+        "image": "./servicess-images/other.jpg",
         "modalContent": "<h3>Web Developing</h3><p>I have experience in developing web applications of various kinds. I very often use technologies that I haven't worked with before. Contact me and I think we will find a solution to your problem, even if I have never done this</p>"
       }
     ]
