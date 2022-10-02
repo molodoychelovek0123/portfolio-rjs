@@ -11,8 +11,8 @@ export default class Hero extends React.Component {
     static propTypes = {
         title: PropTypes.string.isRequired,
         image: PropTypes.string,
-        buttons: PropTypes.arrayOf(PropTypes.object),
-        elems: PropTypes.arrayOf(PropTypes.object)
+        buttons: PropTypes.arrayOf(PropTypes.object), // Кнопки
+        elems: PropTypes.arrayOf(PropTypes.object) // Ссылки
     }
 
     render() {

@@ -14,7 +14,7 @@ class ProjectItemBlock extends React.Component {
   baseClasses = ['project-item', 'card']
   getClasses() {
     const {inViewport} = this.props;
-    if (inViewport) {
+    if (inViewport) { // Если проект во вью порте
       return this.baseClasses.concat(['active']);
     } else {
       return this.baseClasses;

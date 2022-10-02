@@ -6,9 +6,9 @@ import HeaderItem from "./HeaderItem";
 import {changeLanguage} from "i18next";
 
 export default class Header extends React.Component {
-    setLanguage = (lng) =>{
-        changeLanguage(lng).then(r => console.log(r))
-    }
+    // setLanguage = (lng) =>{
+    //     changeLanguage(lng).then(r => console.log(r))
+    // }
     render(){
         let headerLogoUrl =  config.logo;
         let headerAnchors = config.anchors
@@ -22,10 +22,10 @@ export default class Header extends React.Component {
                                 return <HeaderItem id={link.id} text={link.text} key={link.id}/>
                             })}
                             <li className="header-menu__item">
-                                <a href="/" onClick={(e)=>{e.preventDefault(); changeLanguage("en")}}>EN </a>
+                                <a href="/" onClick={(e)=>{e.preventDefault(); changeLanguage("en").then()}}>EN </a>
                             </li>
                             <li className="header-menu__item">
-                                <a href="/" onClick={(e)=>{e.preventDefault(); changeLanguage("ru")}}>RU </a>
+                                <a href="/" onClick={(e)=>{e.preventDefault(); changeLanguage("ru").then()}}>RU </a>
                             </li>
                         </ul>
                     </div>
