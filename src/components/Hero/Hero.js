@@ -30,7 +30,7 @@ export default class Hero extends React.Component {
                     <div className="hero-row" style={{paddingBottom: '70px'}}>
                         <Resume/>
                         {this.props.buttons? (
-                                <Buttons buttons={this.props.buttons}/>
+                                <Buttons buttons={this.props.buttons} onClick={()=>{window.open("https://docs.google.com/spreadsheets/d/1GJdaFRZZwJPZ2dcZq6TgpTZm8JHnirCiHgmb_mRG1KM/edit?usp=sharing" , '_blank');}}/>
                             ) :
                             (
                                 <React.Fragment/>
