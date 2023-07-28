@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-rjs/static/css/main.9779a54d.css",
-    "main.js": "/portfolio-rjs/static/js/main.270519fb.js",
+    "main.css": "/portfolio-rjs/static/css/main.ecac4e6e.css",
+    "main.js": "/portfolio-rjs/static/js/main.1ea5c3f1.js",
     "static/js/431.857a9ec6.chunk.js": "/portfolio-rjs/static/js/431.857a9ec6.chunk.js",
     "static/media/award.gif": "/portfolio-rjs/static/media/award.f54db635e56be4da8908.gif",
     "static/media/hero-bg.jpg": "/portfolio-rjs/static/media/hero-bg.86fd908b9c6aded6eaba.jpg",
@@ -58,12 +58,12 @@
     "static/media/Manropebold.woff2": "/portfolio-rjs/static/media/Manropebold.a693bd8fb65f225a50ba.woff2",
     "index.html": "/portfolio-rjs/index.html",
     "static/media/getFetch.cjs": "/portfolio-rjs/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.9779a54d.css.map": "/portfolio-rjs/static/css/main.9779a54d.css.map",
-    "main.270519fb.js.map": "/portfolio-rjs/static/js/main.270519fb.js.map",
+    "main.ecac4e6e.css.map": "/portfolio-rjs/static/css/main.ecac4e6e.css.map",
+    "main.1ea5c3f1.js.map": "/portfolio-rjs/static/js/main.1ea5c3f1.js.map",
     "431.857a9ec6.chunk.js.map": "/portfolio-rjs/static/js/431.857a9ec6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9779a54d.css",
-    "static/js/main.270519fb.js"
+    "static/css/main.ecac4e6e.css",
+    "static/js/main.1ea5c3f1.js"
   ]
 }
