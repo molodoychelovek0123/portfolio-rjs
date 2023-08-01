@@ -21,8 +21,8 @@ i18n
             escapeValue: false
         },
         backend:{
-            // loadPath: '/locales/{{lng}}/{{ns}}.json',           // For Local Build
-            loadPath: '/portfolio-rjs/locales/{{lng}}/{{ns}}.json' // For GHPAGES
+            loadPath: '/locales/{{lng}}/{{ns}}.json',           // For Local Build
+            // loadPath: '/portfolio-rjs/locales/{{lng}}/{{ns}}.json' // For GHPAGES
         }
     });
 

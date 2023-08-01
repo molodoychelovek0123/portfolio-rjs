@@ -1,8 +1,7 @@
 {
   "name": "kirill-portfolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://molodoychelovek0123.github.io/portfolio-rjs/",
+  "homepage": "https://cv.studiobox.dev",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -10,16 +9,15 @@
     "i18next": "^21.8.10",
     "i18next-browser-languagedetector": "^6.1.4",
     "i18next-http-backend": "^1.4.1",
-    "node-sass": "^7.0.1",
+    "node-sass": "^9.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^11.17.2",
     "react-in-viewport": "^1.0.0-alpha.28",
     "react-onscroll": "^1.0.4",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^4.0.3",
     "styled-components": "^5.3.5",
-    "tinymce": "^6.0.3",
     "use-scroll-position": "^0.0.4",
     "web-vitals": "^2.1.4"
   },
